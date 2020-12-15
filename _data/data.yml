@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Fedor Ivachev
+    tagline: HCI VR Unity developer
+    avatar: photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    wechat: rod_iv
+    github: FedorIvachev
+
+    languages:
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Chinese
+        level: Lower Intermediate
+
+    interests:
+      - item: Hiking
+        link:
+
+      - item: Reading
+        link:
+
+      - item: Technology
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Junior Computer Graphics Developer. Has strong background in 
+      competitive programming, physics and math. Has developed and 
+      published Apps for iOS, Android and Tizen OS.
+education:
+    - degree: MSc in Computer Science
+      university: Tsinghua University
+      time: 2019 - 2021
+      details: |
+        Advanced Computing - HCI
+    - degree: BSc in Applied Mathematics and Computer Science
+      university: Lomonosov Moscow State University
+      time: 2015 - 2019
+      details: |
+        Computer Algebra
+experiences:
+    - role: Software Engineer
+      time: 2019 - 2019
+      company: Huawei Technologies Co., Ltd, Moscow
+      details: |
+        Work on the low-level Graphic Profiling Tools
+    - role: Intern
+      time: 2018 - 2018
+      company: Samsung RC, Ltd, Moscow
+      details: |
+        Develop computer vision algorithms in 3D Avatar team
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Later
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    papers:
+      - title: Modification of Algorithm for inverting matrices with elements from ring of scalar differential operators
+        link: "#"
+        authors: Ivachev Fedor
+        conference: Collection of abstracts of the best qualifying works of CMC MSU 2019. MAKS PRESS 2019. p.88 (in Russian)
+        
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & C++ & C#
+        level: 80%
+        
+      - name: Unity
+        level: 80%
+        
+      - name: Git
+        level: 80%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: Swift, Java
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: OpenCV
+        level: 50%
+
+footer: >
