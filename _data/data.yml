@@ -40,7 +40,7 @@ career-profile:
     summary: |
       Junior Computer Graphics Developer. Has strong background in 
       competitive programming, physics and math. Has developed and 
-      published Apps for iOS, Android and Tizen OS.
+      published Apps for iOS, Android and Tizen OS.  [PDF version - for print](https://github.com/FedorIvachev/cv/blob/master/CV.pdf)
 education:
     - degree: MSc in Computer Science
       university: Tsinghua University
@@ -108,4 +108,4 @@ skills:
       - name: OpenCV
         level: 50%
 
-footer: [PDF version - for print](https://github.com/FedorIvachev/cv/blob/master/CV.pdf)>
+footer: >
