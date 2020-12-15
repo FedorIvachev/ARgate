@@ -39,6 +39,7 @@ career-profile:
     title: Career Profile
     summary: |
       [PDF version - for print](https://github.com/FedorIvachev/cv/blob/master/CV.pdf)
+      - more preferable to read (includes certifications and scholarships). //
       
       Junior Computer Graphics Developer. Has strong background in 
       competitive programming, physics and math. Has developed and 
@@ -68,10 +69,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-      Later
+      You can find more of my project on GitHub
     assignments:
       - title: WordBeaver
         link: "https://appadvice.com/app/wordbeaver-11-words-lessons/1448026604"
