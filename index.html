@@ -1,18 +1,12 @@
----
-layout: default
----
-
-
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+<head>
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs>
+    <a-marker preset='hiro'> 
+      <a-sphere position="0 0 0" radius="0.8" color="#2AA29F"></a-sphere>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
