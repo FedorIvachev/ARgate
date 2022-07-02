@@ -24,7 +24,12 @@
         <a-nft
             type='nft' url="https://fedorivachev.github.io/Resources/nft-3/ramen-1000px"
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
-	    <a-text text="value: Whatever \n you want !" color="blue"    rotation="-90 0 0"></a-text>
+	    <a-entity
+              gltf-model='#model'
+              scale="100 100 100"
+              animation-mixer
+              >
+          </a-entity>
         >
         </a-nft>
 		<a-entity camera></a-entity>
