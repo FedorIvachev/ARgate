@@ -16,11 +16,6 @@
         renderer='antialias: true; logarithmicDepthBuffer: true; alpha: true;'
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'
     >
-        <a-assets>
-            <!-- <a-asset-item id="model" src="/Resources/sample-entity.glb"></a-asset-item> -->
-            <a-asset-item id="model" src="/Resources/qinghuamenfix1.glb"></a-asset-item>
-            <!-- <img id="tex-image" src="/Resources/Map-COL.jpg"> -->
-        </a-assets>
 
         <!-- <a-nft
             samplehandler 
@@ -32,10 +27,7 @@
             type='nft' url="https://fedorivachev.github.io/Resources/nft-3/ramen-1000px"
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         >
-            <!-- <a-entity modify-materials gltf-model="#model" material="src:#tex-image" play-all-model-animations="" position="0 0 0" rotation="0 0 0" scale="100 100 100" visible="true">
-            </a-entity> -->
-            <a-entity gltf-model="#model" play-all-model-animations="" position="0 0 -200" rotation="-90 0 0" xrextras-one-finger-rotate scale="50 50 50" visible="true">
-            </a-entity>
+	<a-box position='0 0.5 0' material='opacity: .7;' color="red"></a-box>
         </a-nft>
 	<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
 		<a-entity camera></a-entity>
